@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="styles.css" />
+<div class="container">
+    <h2>Student Dashboard</h2>
+    <p>Oops! Misplaced something? Let us help you find it.</p>
+    <form id="reportForm">
+      <input type="text" placeholder="Item name" name="item" required />
+      <input type="text" placeholder="Your name" name="reporter" required />
+      <input type="email" placeholder="Your email" name="email" required />
+      <input type="tel" placeholder="Phone number" name="phone" required />
+      <textarea placeholder="Description" name="description" required></textarea>
+      <button type="submit">Report Lost Item</button>
+    </form>
+  </div>
+  <style>
+    body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #e0f7fa;
+  color: #01579b;
+  text-align: center;
+  padding: 2rem;
+}
+
+.container {
+  background: #b3e5fc;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  margin: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0277bd;
+}
+
+input, textarea {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  width: 90%;
+  border: 1px solid #81d4fa;
+  border-radius: 5px;
+}
+
+  </style>
+  <script src="script.js"></script>
+  
